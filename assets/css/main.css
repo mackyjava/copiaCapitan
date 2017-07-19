@@ -83,7 +83,7 @@ ul {
 
 @media all and (max-width: 772px) and (min-width: 600px) {
   .nav {
-    width: 100%;
+    width: 103%;
     background-color: #f7b617;
     color: white;
     font-size: 25px;
@@ -98,6 +98,28 @@ ul {
     background-color: black;
     color: white;
     margin-top: 2%;
+    text-align: left; }
+
+  .special {
+    background-color: #f7b617;
+    border: 2px solid #f7b617; } }
+@media all and (max-width: 599px) and (min-width: 320px) {
+  .nav {
+    width: 112.5%;
+    background-color: #f7b617;
+    color: white;
+    font-size: 18px;
+    margin-left: -3%;
+    height: 100px; }
+
+  .cajita {
+    width: 585%;
+    height: 50px;
+    border: 2px solid black;
+    margin-left: -3%;
+    background-color: black;
+    color: white;
+    margin-top: 4%;
     text-align: left; }
 
   .special {
@@ -145,5 +167,30 @@ ul {
     height: 55px;
     color: white;
     margin-top: 65%; } }
+@media all and (max-width: 599px) and (min-width: 320px) {
+  .container-content {
+    width: 100%;
+    margin-top: 3%;
+    margin-left: -1%; }
+
+  .aside {
+    width: 107%;
+    background-color: black;
+    color: white;
+    margin-left: 1%;
+    margin-top: 5%; }
+
+  .aside h2 {
+    margin-top: 2%; }
+
+  .aside p {
+    margin-top: 3%; }
+
+  .footer {
+    width: 107%;
+    background-color: black;
+    height: 55px;
+    color: white;
+    margin-top: 200%; } }
 
 /*# sourceMappingURL=main.css.map */
